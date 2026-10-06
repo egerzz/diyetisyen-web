@@ -10,7 +10,7 @@ Diyetisyen Dila Özdemir için hazırlanmış; kişiye özel beslenme planların
 
 ## Canlı Demo
 
-🌐 **[Siteyi görüntüle](https://<kullanici-adi>.github.io/<depo-adi>/)**
+🌐 **[Siteyi görüntüle](https://egerzz.github.io/diyetisyen-web/)**
 
 <!-- Ekran görüntüsü eklemek için dosyayı docs/ klasörüne koyup aşağıdaki satırı etkinleştirin:
 ![Ana sayfa](docs/screenshot.png)
