@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header section starts  -->
+    <header class="header">
+      <section class="flex">
+        <a href="#" class="logo">Lorem ipsum dolor</a>
+
+        <nav class="navbar">
+          <a href="#home">ana sayfa</a>
+          <a href="#about">hakkımızda</a>
+          <a href="#prices">paketler</a>
+          <a href="#booking">randevu</a>
+          <a href="#blogs">blog</a>
+        </nav>
+
+        <div class="icons">
+          <a href="#" class="far fa-user" id="menu-btn"></a>
+          <a href="#" class="far fa-heart" id="menu-btn"></a>
+          <input type="checkbox" name="" id="themeToggler" />
+          <label for="themeToggler" class="far fa-lightbulb"></label>
+          <input type="checkbox" id="menu-btn" />
+          <label for="menu-btn" class="fas fa-bars-staggered"></label>
+        </div>
+      </section>
+    </header>
+
+    <!-- header section starts  -->
+
+    <!-- home section starts  -->
+
+    <div class="home" id="home">
+      <div class="content">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <p>
+          Sürdürülebilir beslenme alışkanlıkları için kişiye özel planlar. Diyet
+          yapmadan, keyifle ve dengeli beslenin.
+        </p>
+        <a href="#booking" class="btn">randevu al</a>
+      </div>
+    </div>
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+      <div class="about-image">
+        <img src="img/about.jpg" alt="Lorem ipsum dolor sit amet" />
+      </div>
+
+      <div class="about-content">
+        <span class="about-tag">Hakkımda</span>
+        <h2>Sağlıklı beslenme, size özel bir yolculuk</h2>
+        <p>
+          Merhaba, ben Dila. Herkesin bedeni ve yaşam tarzı farklıdır, bu yüzden
+          hazır listeler yerine size uygun, uygulanabilir beslenme planları
+          hazırlıyorum.
+        </p>
+        <p>
+          Kilo verme, kilo alma, sporcu beslenmesi ya da daha dengeli bir düzen:
+          hedefiniz ne olursa olsun adım adım birlikte ilerleriz.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <h3>5+</h3>
+            <span>yıl deneyim</span>
+          </div>
+          <div class="stat">
+            <h3>300+</h3>
+            <span>danışan</span>
+          </div>
+          <div class="stat">
+            <h3>%95</h3>
+            <span>memnuniyet</span>
+          </div>
+        </div>
+
+        <a href="#booking" class="btn">randevu al</a>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- booking section starts -->
+
+    <section class="booking" id="booking">
+      <div class="booking-head">
+        <span class="about-tag">Randevu</span>
+        <h2>Size uygun zamanı seçin</h2>
+        <p>
+          Formu doldurun, bilgileriniz WhatsApp üzerinden bana iletilsin. En
+          kısa sürede size dönüş yapayım.
+        </p>
+      </div>
+
+      <form class="booking-form" id="bookingForm">
+        <div class="form-group">
+          <label for="name">Ad Soyad</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Adınız ve soyadınız"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" placeholder="05xx xxx xx xx" required />
+        </div>
+
+        <div class="form-group">
+          <label for="service">Görüşme türü</label>
+          <select id="service" required>
+            <option value="" disabled selected>Seçiniz</option>
+            <option>İlk görüşme</option>
+            <option>Kilo verme programı</option>
+            <option>Kilo alma programı</option>
+            <option>Sporcu beslenmesi</option>
+            <option>Kontrol görüşmesi</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="mode">Görüşme şekli</label>
+          <select id="mode" required>
+            <option value="" disabled selected>Seçiniz</option>
+            <option>Yüz yüze</option>
+            <option>Online</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="date">Tarih</label>
+          <input type="date" id="date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="time">Saat</label>
+          <select id="time" required>
+            <option value="" disabled selected>Seçiniz</option>
+            <option>09:00</option>
+            <option>10:00</option>
+            <option>11:00</option>
+            <option>13:00</option>
+            <option>14:00</option>
+            <option>15:00</option>
+            <option>16:00</option>
+            <option>17:00</option>
+          </select>
+        </div>
+
+        <div class="form-group full">
+          <label for="note">Notunuz (isteğe bağlı)</label>
+          <textarea
+            id="note"
+            rows="4"
+            placeholder="Hedefiniz veya sormak istedikleriniz"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn full">
+          WhatsApp ile randevu gönder
+        </button>
+      </form>
+    </section>
+
+    <!-- booking section ends -->
+
+
+    <!-- blogs section starts -->
+
+<section class="blog" id="blogs">
+
+    <div class="blog-head">
+        <span class="about-tag">Blog</span>
+        <h2>Beslenme üzerine yazılar</h2>
+        <p>Sağlıklı beslenme yolculuğunuzda işinize yarayacak pratik bilgiler.</p>
+    </div>
+
+    <div class="blog-grid">
+
+        <article class="post">
+            <div class="post-image">
+                <img src="img/blog1.jpg" alt="Dengeli kahvaltı tabağı">
+            </div>
+            <div class="post-body">
+                <span class="post-date">12 Eylül 2026</span>
+                <h3>Dengeli bir kahvaltı nasıl hazırlanır?</h3>
+                <p>Güne enerjik başlamak için tabağınızda bulunması gereken besin gruplarına kısaca göz atalım.</p>
+                <a href="#" class="post-link">devamını oku <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <article class="post">
+            <div class="post-image">
+                <img src="img/blog2.jpg" alt="Su içen kadın">
+            </div>
+            <div class="post-body">
+                <span class="post-date">5 Eylül 2026</span>
+                <h3>Su tüketimini artırmanın kolay yolları</h3>
+                <p>Gün içinde yeterince su içmeyi alışkanlık haline getirmek için uygulaması kolay öneriler.</p>
+                <a href="#" class="post-link">devamını oku <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <article class="post">
+            <div class="post-image">
+                <img src="img/blog3.jpg" alt="Sağlıklı atıştırmalıklar">
+            </div>
+            <div class="post-body">
+                <span class="post-date">28 Ağustos 2026</span>
+                <h3>Ara öğünde neler tercih edilebilir?</h3>
+                <p>Kan şekerini dengede tutan ve tokluk sağlayan pratik ara öğün fikirleri.</p>
+                <a href="#" class="post-link">devamını oku <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+
+
+    <script>
+    const form = document.getElementById('bookingForm');
+    const dateInput = document.getElementById('date');
+
+    // Geçmiş tarihler seçilemesin
+    dateInput.min = new Date().toLocaleDateString('en-CA');
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // BURAYA KENDİ NUMARANIZI YAZIN: başında 0 ve + olmadan, 90 ile başlayarak
+        const phoneNumber = '905XXXXXXXXX';
+
+        const name    = document.getElementById('name').value;
+        const phone   = document.getElementById('phone').value;
+        const service = document.getElementById('service').value;
+        const mode    = document.getElementById('mode').value;
+        const time    = document.getElementById('time').value;
+        const note    = document.getElementById('note').value;
+
+        const d = dateInput.value.split('-');
+        const date = d[2] + '.' + d[1] + '.' + d[0];
+
+        const message =
+            'Merhaba, randevu almak istiyorum.\n\n' +
+            'Ad Soyad: ' + name + '\n' +
+            'Telefon: ' + phone + '\n' +
+            'Görüşme türü: ' + service + '\n' +
+            'Görüşme şekli: ' + mode + '\n' +
+            'Tarih: ' + date + '\n' +
+            'Saat: ' + time +
+            (note ? '\nNot: ' + note : '');
+
+        window.open('https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message), '_blank');
+    });
+</script>
+
+
+
+  </body>
+</html>
