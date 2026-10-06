@@ -1,4 +1,4 @@
-# Dyt. Dila Özdemir – Diyetisyen Web Sitesi
+ Diyetisyen Web Sitesi
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -6,7 +6,7 @@
 ![WhatsApp](https://img.shields.io/badge/WhatsApp-randevu-25D366?logo=whatsapp&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-uyumlu-2ea44f?logo=github&logoColor=white)
 
-Diyetisyen Dila Özdemir için hazırlanmış; kişiye özel beslenme planlarını tanıtan, ziyaretçilerin form doldurarak **WhatsApp üzerinden randevu talep edebildiği**, Türkçe ve mobil uyumlu bir kişisel web sitesi. Framework, paket yöneticisi veya sunucu gerektirmez; yalnızca HTML, CSS ve JavaScript ile yazılmıştır.
+Ziyaretçilerin form doldurarak **WhatsApp üzerinden randevu talep edebildiği**, Türkçe ve mobil uyumlu bir kişisel web sitesi. Framework, paket yöneticisi veya sunucu gerektirmez; yalnızca HTML, CSS ve JavaScript ile yazılmıştır.
 
 ## Canlı Demo
 
