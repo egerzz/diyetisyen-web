@@ -1,4 +1,4 @@
- ## Diyetisyen Web Sitesi
+## Diyetisyen Web Sitesi
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -49,7 +49,7 @@ Ziyaretçilerin form doldurarak **WhatsApp üzerinden randevu talep edebildiği*
 | Randevu | `#booking` | WhatsApp'a yönlendiren randevu formu |
 | Blog | `#blogs` | Beslenme üzerine yazı kartları |
 
-> **Paketler** (`#prices`) bölümü menüde yer alıyor ancak henüz eklenmedi. Ayrıntı için [Yayından önce yapılacaklar](#yayından-önce-yapılacaklar) başlığına bakın.
+> **Paketler** bölümü ileride eklenecek; eklendiğinde menüye `#prices` bağlantısı da konulmalı.
 
 ## Kullanılan teknolojiler
 
@@ -62,14 +62,13 @@ Ziyaretçilerin form doldurarak **WhatsApp üzerinden randevu talep edebildiği*
 ## Proje yapısı
 
 ```text
-dyt-dila-ozdemir/
+diyetisyen-web/
 ├── img/
 │   ├── bg.jpg          # Ana sayfa arka planı
 │   ├── about.jpg       # Hakkımda bölümü görseli
 │   ├── blog1.jpg       # Blog görselleri
 │   ├── blog2.jpg
-│   ├── blog3.jpg
-│   └── logo.jpg        # Logo
+│   └── blog3.jpg
 ├── index.html          # Sayfa içeriği ve randevu formu betiği
 ├── style.css           # Tasarım ve duyarlı düzen
 └── README.md
@@ -80,8 +79,8 @@ dyt-dila-ozdemir/
 Depoyu bilgisayarınıza indirin:
 
 ```bash
-git clone https://github.com/<kullanici-adi>/<depo-adi>.git
-cd <depo-adi>
+git clone https://github.com/egerzz/diyetisyen-web.git
+cd diyetisyen-web
 ```
 
 Ardından `index.html` dosyasına çift tıklayarak tarayıcıda açın. Ek bir kurulum gerekmez.
@@ -123,18 +122,18 @@ Form gönderildiğinde `https://wa.me/<numara>?text=...` adresi yeni sekmede aç
 2. Depoda **Settings → Pages** bölümünü açın.
 3. **Build and deployment** altında kaynak olarak **Deploy from a branch** seçin.
 4. Dal olarak `main`, klasör olarak `/ (root)` seçip **Save** düğmesine basın.
-5. Birkaç dakika içinde site `https://<kullanici-adi>.github.io/<depo-adi>/` adresinde yayına girer.
+5. Birkaç dakika içinde site `https://egerzz.github.io/diyetisyen-web/` adresinde yayına girer.
 
 ## Yayından önce yapılacaklar
 
 - [ ] `index.html` içinde `phoneNumber` değerini gerçek WhatsApp numarasıyla değiştirin (`905XXXXXXXXX` yer tutucudur).
-- [ ] **Paketler** (`#prices`) bölümünü ekleyin ya da menüdeki "paketler" bağlantısını kaldırın.
-- [ ] Simgelerin görünmesi için `<head>` içine Font Awesome bağlantısını ekleyin.
-- [ ] `<head>` içine `<title>` ve `<meta name="description">` etiketlerini ekleyin (sekme başlığı ve arama sonuçları için).
+- [ ] **Paketler** bölümünü ekleyin ve menüye bağlantısını koyun.
+- [x] Font Awesome bağlantısı eklendi.
+- [x] `<title>` ve `<meta name="description">` etiketleri eklendi.
 - [ ] İstatistik kartlarındaki değerleri (yıl deneyim, danışan sayısı, memnuniyet) gerçek bilgilerle güncelleyin.
 - [ ] Blog yazılarındaki "devamını oku" bağlantılarını (`href="#"`) gerçek yazı sayfalarına yönlendirin.
-- [ ] Menüdeki kullanıcı ve kalp simgelerini bir işleve bağlayın ya da kaldırın.
-- [ ] Menü düğmesi için tekrar eden `id="menu-btn"` kullanımını düzeltin (her `id` sayfada yalnızca bir kez kullanılmalıdır).
+- [x] Kalp simgesi kaldırıldı; kullanıcı simgesi randevu bölümüne yönlendiriyor.
+- [x] Tekrar eden `id="menu-btn"` düzeltildi (mobil menü artık açılıyor).
 - [ ] `docs/screenshot.png` ekran görüntüsünü ekleyip README'deki satırı etkinleştirin.
 
 ## Lisans
